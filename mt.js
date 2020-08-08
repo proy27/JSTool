@@ -17,5 +17,5 @@ function showmenu2(obj, objname, url) {
         $('#' + objname).show();
         return;
     }
-    $('body').append('<div id="' + objname + '" style="display: block; position: absolute; left: ' + x + 'px; top: ' + y + 'px;"><img src="' + url+'" id="tid_420932_img" width="800"  alt="1152X648"></div>')
+    $('body').append('<div id="' + objname + '" style="display: block; position: absolute; left: ' + x + 'px; top: ' + y + 'px;"><img src="' + url+'" id="tid_420932_img" width="1000" ></div>')
 }
